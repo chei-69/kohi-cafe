@@ -1,0 +1,209 @@
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #1a1209 ;
+}
+header {
+    padding: 1rem 2rem;
+    background-color: #2d1f0e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #c9a84c;
+}
+.logo {
+    color: #c9a84c;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #f0e6d3 ;
+    transition: 0.3s ease;
+}
+a:hover {
+    color: #c9a84c;
+}
+.hero {
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://images.unsplash.com/photo-1681219303573-3b975917ca21?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero h1 {
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  color: #f0e6d3;
+  text-decoration: underline 1px solid #c9a84c;
+  font-size: 62px;
+}
+.hero p {
+  color: #f0e6d3;
+  font-size: 20px;
+  text-shadow: 0 0 10px #c9a84c, 0 0 20px #c9a84c;
+}
+.btn {
+    font-size: 32px;
+    color: #c9a84c;
+    font-family: "Beau Rivage", cursive;
+    transition: 0.3s ease;
+}
+.btn:hover {
+    transform: scale3d(1.2, 1.2 , 1.2);
+}
+img {
+    width: 100%;
+    height: 200px;
+}
+.produit {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content {
+    width: 70%;
+    height: 60%;
+    background-color: rgba(231, 249, 163, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 25px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+    background-color: #f0e6d3;
+    border-radius: 25px;
+}
+.card p {
+    color: #2d1f0e;
+     font-family: "Ole", cursive;
+     font-size: 42px;
+}
+.produit h1 {
+    color: #f0e6d3;
+
+}
+.a-propos {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenu {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(231, 249, 163, 0.1);
+    width: 80%;
+    height: 80%;
+}
+.desc {
+    height: auto;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.desc p {
+    color: #f0e6d3;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.desc h1 {
+    color: #f0e6d3;
+    font-size: 42px;
+}
+.image {
+    width: 60%;
+    height: 100%;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contact {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 70%;
+    width: 50%;
+    background-color:rgba(162, 166, 108, 0.2) ;
+    border-radius: 25px;
+    border: #c9a84c 1px solid;
+}
+input {
+    padding: 10px 50px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #f0e6d3;
+}
+form h1 {
+    color: #f0e6d3;
+     font-family: "Ole", cursive;
+    
+}
+textarea {
+     padding: 10px;
+    border-radius: 15px;
+    background-color: #f0e6d3;
+    width: 70%;
+    height: 100px;
+    resize: none;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2d1f0e;
+    gap: 10px;
+    padding: 20px;
+    border-top: 1px solid #c9a84c;
+}
+footer p {
+    color: #f0e6d3;
+    font-size: 20px;
+}
+i {
+    font-size: 32px;
+    color: #f0e6d3;
+}
