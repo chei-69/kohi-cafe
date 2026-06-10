@@ -207,3 +207,56 @@ i {
     font-size: 32px;
     color: #f0e6d3;
 }
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .hero p {
+        font-size: 14px;
+        text-align: center;
+        padding: 0 20px;
+    }
+    nav ul {
+        gap: 10px;
+    }
+    a {
+        font-size: 14px;
+    }
+    .cards {
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    width: 80%;
+}
+.desc h1 {
+    font-size: 24px;
+}
+.a-propos {
+    flex-direction: column;
+    height: auto;
+}
+.contenu {
+    flex-direction: column;
+    width: 95%;
+    height: auto;
+}
+.desc {
+    width: 100%;
+    padding: 20px;
+}
+.image {
+    width: 100%;
+    height: 250px;
+}
+}
+.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.visible {
+    opacity: 1;
+    transform: translateY(50px);
+}
