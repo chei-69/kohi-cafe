@@ -16,5 +16,18 @@ const observer = new IntersectionObserver((entries) => {
 sections.forEach(section => {
     observer.observe(section);
 });
+const liens = document.querySelectorAll('nav a');
 
+const observerNav = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            liens.forEach(lien => lien.classList.remove('active'));
+            const id = entry.target.getAttribute('id');
+            const lienActif = document.querySelector(`nav a[href="#${id}"]`);
+            if (lienActif) lienActif.classList.add('active');
+        }
+    });
+}, { threshold: 0.5 });
+
+sections.forEach(section => observerNav.observe(section));
 

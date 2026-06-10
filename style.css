@@ -11,6 +11,9 @@ header {
     justify-content: space-between;
     align-items: center;
     border: 1px solid #c9a84c;
+    position:fixed;
+    z-index: 1000;
+    width: 1200px
 }
 .logo {
     color: #c9a84c;
@@ -45,6 +48,7 @@ a:hover {
     align-items: center;
     flex-direction: column;
     gap: 30px;
+    background-attachment: fixed;
 }
 .hero h1 {
     font-family: "Dancing Script", cursive;
@@ -259,4 +263,8 @@ i {
 .visible {
     opacity: 1;
     transform: translateY(50px);
+}
+.active {
+    color: #c9a84c;
+    border-bottom: 2px solid #c9a84c;
 }
